@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prestige</title>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="buyfunctions.js"></script>
+    <script type="text/javascript" src="win.js"></script>
+  </head>
+  <body style="text-align: center; font-family: sans-serif;" id="body">
+    <h1>Prestige</h1>
+    <h2>You have <span id="money">0</span> coins.</h2>
+    <h3><span id="pertick">1</span> coin(s) per tick</h3>
+    <table style="margin-left: auto; margin-right: auto;">
+      <tbody>
+        <tr>
+          <td>Layer 1</td>
+          <td>|</td>
+          <td>Amount: <span id="tier1amt">1</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier1cost">3</span> Coins</td>
+          <td><button onclick="buy1()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 2</td>
+          <td>|</td>
+          <td>Amount: <span id="tier2amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier2cost">3</span> Layer 1</td>
+          <td><button onclick="buy2()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 3</td>
+          <td>|</td>
+          <td>Amount: <span id="tier3amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier3cost">3</span> Layer 2</td>
+          <td><button onclick="buy3()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 4</td>
+          <td>|</td>
+          <td>Amount: <span id="tier4amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier4cost">3</span> Layer 3</td>
+          <td><button onclick="buy4()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 5</td>
+          <td>|</td>
+          <td>Amount: <span id="tier5amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier5cost">3</span> Layer 4</td>
+          <td><button onclick="buy5()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 6</td>
+          <td>|</td>
+          <td>Amount: <span id="tier6amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier6cost">3</span> Layer 5</td>
+          <td><button onclick="buy6()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 7</td>
+          <td>|</td>
+          <td>Amount: <span id="tier7amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier7cost">3</span> Layer 6</td>
+          <td><button onclick="buy7()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 8</td>
+          <td>|</td>
+          <td>Amount: <span id="tier8amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier8cost">3</span> Layer 7</td>
+          <td><button onclick="buy8()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Layer 9</td>
+          <td>|</td>
+          <td>Amount: <span id="tier9amt">0</span></td>
+          <td>|</td>
+          <td>Cost: <span id="tier9cost">3</span> Layer 8</td>
+          <td><button onclick="buy9()">Prestige</button></td>
+        </tr>
+        <tr>
+          <td>Win!</td>
+          <td>|</td>
+          <td>You have won <span id="winamt">0</span> times already.</td>
+          <td>|</td>
+          <td>Cost: 3 Layer 9</td>
+          <td><button onclick="win()">Win</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="lights" onclick="lights()">Lights Out</button>
+  </body>
+</html>

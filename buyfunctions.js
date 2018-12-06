@@ -5,7 +5,7 @@ function roundNum(num, precision) {
 
 function buy1() {
   if (player.money >= player.p1cost) {
-    player.money = 0;
+    player.money -= player.p1cost;
     player.p1 += 1;
     player.p1cost = player.p1cost * 1.2;
     player.p1cost = roundNum(player.p1cost, 0)
